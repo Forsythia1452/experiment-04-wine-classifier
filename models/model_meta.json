@@ -1,0 +1,168 @@
+{
+  "model_version": "1.0.0",
+  "model_name": "logistic_regression",
+  "trained_at_utc": "2026-09-30T06:16:39.839794+00:00",
+  "data_version": "sklearn-load_wine-1.7.2",
+  "data_samples": 178,
+  "train_samples": 142,
+  "test_samples": 36,
+  "random_state": 42,
+  "split_strategy": "stratified 80/20",
+  "selection_protocol": "5-fold stratified cross-validation on training set",
+  "primary_metric": "macro F1",
+  "feature_names": [
+    "alcohol",
+    "malic_acid",
+    "ash",
+    "alcalinity_of_ash",
+    "magnesium",
+    "total_phenols",
+    "flavanoids",
+    "nonflavanoid_phenols",
+    "proanthocyanins",
+    "color_intensity",
+    "hue",
+    "od280/od315_of_diluted_wines",
+    "proline"
+  ],
+  "class_names": [
+    "cultivar_0",
+    "cultivar_1",
+    "cultivar_2"
+  ],
+  "training_stats": {
+    "alcohol": {
+      "min": 11.03,
+      "max": 14.83,
+      "q1": 12.37,
+      "q3": 13.56,
+      "median": 13.01,
+      "mean": 12.971478873239436
+    },
+    "malic_acid": {
+      "min": 0.74,
+      "max": 5.8,
+      "q1": 1.61,
+      "q3": 3.17,
+      "median": 1.81,
+      "mean": 2.34
+    },
+    "ash": {
+      "min": 1.36,
+      "max": 3.22,
+      "q1": 2.2,
+      "q3": 2.56,
+      "median": 2.36,
+      "mean": 2.364859154929578
+    },
+    "alcalinity_of_ash": {
+      "min": 10.6,
+      "max": 30.0,
+      "q1": 17.2,
+      "q3": 21.5,
+      "median": 19.5,
+      "mean": 19.625352112676055
+    },
+    "magnesium": {
+      "min": 70.0,
+      "max": 162.0,
+      "q1": 88.0,
+      "q3": 107.75,
+      "median": 97.0,
+      "mean": 99.63380281690141
+    },
+    "total_phenols": {
+      "min": 0.98,
+      "max": 3.88,
+      "q1": 1.705,
+      "q3": 2.8,
+      "median": 2.335,
+      "mean": 2.2737323943661973
+    },
+    "flavanoids": {
+      "min": 0.34,
+      "max": 3.74,
+      "q1": 1.2275,
+      "q3": 2.775,
+      "median": 2.135,
+      "mean": 1.9853521126760565
+    },
+    "nonflavanoid_phenols": {
+      "min": 0.13,
+      "max": 0.63,
+      "q1": 0.27,
+      "q3": 0.43,
+      "median": 0.34,
+      "mean": 0.36014084507042254
+    },
+    "proanthocyanins": {
+      "min": 0.42,
+      "max": 3.58,
+      "q1": 1.25,
+      "q3": 1.95,
+      "median": 1.56,
+      "mean": 1.6002112676056337
+    },
+    "color_intensity": {
+      "min": 1.28,
+      "max": 13.0,
+      "q1": 3.0575,
+      "q3": 6.1825,
+      "median": 4.64,
+      "mean": 4.98964788028169
+    },
+    "hue": {
+      "min": 0.48,
+      "max": 1.71,
+      "q1": 0.78,
+      "q3": 1.09,
+      "median": 0.96,
+      "mean": 0.948985915492958
+    },
+    "od280/od315_of_diluted_wines": {
+      "min": 1.27,
+      "max": 3.92,
+      "q1": 1.97,
+      "q3": 3.16,
+      "median": 2.78,
+      "mean": 2.6061971830985917
+    },
+    "proline": {
+      "min": 278.0,
+      "max": 1515.0,
+      "q1": 496.25,
+      "q3": 981.25,
+      "median": 673.5,
+      "mean": 739.4788732394367
+    }
+  },
+  "sklearn_version": "1.7.2",
+  "git_commit": "02000aeb0a14bdc9927d46c6f4926499bb77a822",
+  "model_file": "wine_pipeline.joblib",
+  "model_sha256": "4e5dfa1b262a364d906c9f2bff28258bce950cc6d36138cb2611dc5dd1b3147b",
+  "final_metrics": {
+    "accuracy": 0.9722222222222222,
+    "precision_macro": 0.9777777777777779,
+    "recall_macro": 0.9666666666666667,
+    "f1_macro": 0.9709618874773139,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        14,
+        0
+      ],
+      [
+        0,
+        1,
+        9
+      ]
+    ],
+    "test_samples": 36,
+    "evaluated_once": true
+  }
+}
