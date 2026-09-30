@@ -1,0 +1,2 @@
+"""Wine classifier application package."""
+
